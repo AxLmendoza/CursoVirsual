@@ -1,3 +1,4 @@
 ## Este es el archivo del curso xd 
-Mi proyecto trata sobre el juego de YU-GO-OH sobre el drew de los "Dioses nordicos" 
-Este aun lo estoy trabajando jsjs 
+Mi proyecto trata sobre los albumes de guns n' roses pondre desde sus inicios y los actuales y sus caciones
+Y mas 
+Aun lo estoy trabajando xd  
