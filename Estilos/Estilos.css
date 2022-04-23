@@ -1,0 +1,18 @@
+
+* {
+    font-size: 20px;
+    color: gray;
+    text-align:left;
+}
+
+.IDA {
+    display: inline-block;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    margin: 20px;
+    border-width: 4px; 
+}
+driv.IDA h3 {
+    text-align: center;
+}
