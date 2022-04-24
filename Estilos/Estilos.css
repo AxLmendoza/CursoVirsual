@@ -1,7 +1,9 @@
-
-* {
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Pacifico&display=swap');
+body {
+    margin: 0;
     font-size: 20px;
-    color: gray;
+    color: white;
+    background-color: #343E3D;
     text-align:left;
 }
 
@@ -12,7 +14,49 @@
     border-color: black;
     margin: 20px;
     border-width: 4px; 
+    background-color: black;
 }
-driv.IDA h3 {
+
+
+#Logo{
+width: 90px;
+height: 90px;
+margin-right: 325px;
+}
+
+div.IDA h3 {
     text-align: center;
+    margin: 1em 1px;
+}    
+    
+#Encabe a {
+    text-decoration: none;
+}
+
+#Encabe h1 {
+    display: inline-block;
+    margin: 0;
+}
+#Encabe {
+    background-color: #B9B7A7;
+    padding: 0px 10px;
+}
+
+#Social-re {
+    float: right;
+}
+#Contenido_prin{
+    padding: 1em 1.5px;
+}
+ 
+div.IDA img {
+
+    height: 325px;
+    width: 275px;
+}
+div.IDA#seleccionado, div.IDA:hover {
+
+    border-color: #570000;
+    color: #570000;
+    transition: 0.3s;
 }
