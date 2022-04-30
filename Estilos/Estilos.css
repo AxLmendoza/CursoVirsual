@@ -14,7 +14,7 @@ body {
     border-color: black;
     margin: 20px;
     border-width: 4px; 
-    background-color: black;
+    background-color: #070A0F;
 }
 
 
@@ -44,9 +44,14 @@ div.IDA h3 {
 
 #Social-re {
     float: right;
+    padding-top: 26px;
 }
 #Contenido_prin{
     padding: 1em 1.5px;
+}
+
+div#Social-re a {
+    margin-left: 20px;
 }
  
 div.IDA img {
@@ -55,8 +60,8 @@ div.IDA img {
     width: 275px;
 }
 div.IDA#seleccionado, div.IDA:hover {
-
-    border-color: #570000;
-    color: #570000;
+    border-color: #667761;    
+    color: #667761;    
     transition: 0.3s;
 }
+
