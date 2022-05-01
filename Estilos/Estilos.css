@@ -35,11 +35,42 @@ div.IDA h3 {
 
 #Encabe h1 {
     display: inline-block;
-    margin: 0;
+    margin: 3;
 }
 #Encabe {
     background-color: #B9B7A7;
     padding: 0px 10px;
+    border-bottom-style: solid;
+    border-bottom-color: #070A0F;
+    border-bottom-width: 2px;
+}
+
+#Social-re-extra{
+    display: none;
+}
+
+@media screen and (max-width: 1085px ){
+     #Encabe {
+        padding: 0px 5;
+     }
+}
+
+@media screen and (max-width: 1085px ){
+    #Encebe  {
+        text-align: center;
+    }
+    #Social-re{
+        display: none;
+    }
+    #Social-re-extra{
+        display: block;
+    }
+}
+
+#Redes-sociales-extra a{
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 #Social-re {
@@ -49,6 +80,8 @@ div.IDA h3 {
 #Contenido_prin{
     padding: 0.5em 1.5px;
 }
+
+
 
 div#Social-re a {
     margin-left: 20px;
@@ -63,5 +96,11 @@ div.IDA#seleccionado, div.IDA:hover {
     border-color: #667761;    
     color: #667761;    
     transition: 0.3s;
+}
+
+
+#Social-re img {
+    width: 20%;
+    transition: 0.5;
 }
 
