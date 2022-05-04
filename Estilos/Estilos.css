@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Pacifico&display=swap');
+
 body {
     margin: 0;
     font-size: 20px;
     color: white;
     background-color: #343E3D;
-    text-align:left;
+    text-align: left;
 }
 
 .IDA {
@@ -13,22 +14,22 @@ body {
     border-radius: 10px;
     border-color: black;
     margin: 20px;
-    border-width: 4px; 
+    border-width: 4px;
     background-color: #070A0F;
 }
 
 
-#Logo{
-width: 90px;
-height: 90px;
-margin-right: 373px;
+#Logo {
+    width: 90px;
+    height: 90px;
+    margin-right: 373px;
 }
 
 div.IDA h3 {
     text-align: center;
     margin: 1em 1px;
-}    
-    
+}
+
 #Encabe a {
     text-decoration: none;
 }
@@ -37,6 +38,7 @@ div.IDA h3 {
     display: inline-block;
     margin: 3;
 }
+
 #Encabe {
     background-color: #B9B7A7;
     padding: 0px 10px;
@@ -45,29 +47,28 @@ div.IDA h3 {
     border-bottom-width: 2px;
 }
 
-#Social-re-extra{
+#Social-re-extra {
     display: none;
 }
 
-@media screen and (max-width: 1085px ){
-     #Encabe {
+@media screen and (max-width: 1085px) {
+    #Encabe {
         padding: 0px 5;
-     }
+    }
 }
-
-@media screen and (max-width: 1085px ){
-    #Encebe  {
+    #Encebe {
         text-align: center;
     }
-    #Social-re{
+
+    #Social-re {
         display: none;
     }
-    #Social-re-extra{
+
+    #Social-re-extra {
         display: block;
     }
-}
 
-#Redes-sociales-extra a{
+#Redes-sociales-extra a {
     text-decoration: none;
     margin-right: 10px;
     margin-left: 10px;
@@ -77,7 +78,8 @@ div.IDA h3 {
     float: right;
     padding-top: 26px;
 }
-#Contenido_prin{
+
+#Contenido_prin {
     padding: 0.5em 1.5px;
 }
 
@@ -86,15 +88,17 @@ div.IDA h3 {
 div#Social-re a {
     margin-left: 20px;
 }
- 
+
 div.IDA img {
 
     height: 325px;
     width: 275px;
 }
-div.IDA#seleccionado, div.IDA:hover {
-    border-color: #667761;    
-    color: #667761;    
+
+div.IDA#seleccionado,
+div.IDA:hover {
+    border-color: #667761;
+    color: #667761;
     transition: 0.3s;
 }
 
@@ -104,3 +108,6 @@ div.IDA#seleccionado, div.IDA:hover {
     transition: 0.5;
 }
 
+@media (max-width: 767px) {}
+@media (max-width: 768px) and (max-width: 990px) {}
+@media (max-width: 991px) {}
