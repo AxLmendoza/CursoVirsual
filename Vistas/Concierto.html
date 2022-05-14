@@ -33,18 +33,28 @@
 <!-- Contenido princi-->
 <div id="Contenido_prin">
     <h3>Compra tus boletos</h3>
+    <span>¿Cual es tu pais?</span> 
+    <select name="pais">
+        <option value"es" > España</option>
+        <option value"mx" selected="selected"> México</option>
+        <option value"co"> Colombia</option>
+        </select>
+        <p>Sexo: Hombre<input type="radio" name="sexo" value="h">
+            Mujer<input type="radio" name="sexo" value="m" ></p>
+            <p>Nombre: <input type="text" name="nombre" ></p>
     <div> 
-    <span>¿Cuantos boletos quieres?</span>
+    <span>¿Cuantos boletos quieres?</span> 
     <input type="number" id="Cantidad"> 
-    </div>  
+    </div>      
     <div> 
         <span>¿Cuantos años tienes?</span>
         <input type="number" id="Edad">
+        <p>Ingresa tu clave de Bitcoin: <input type="text" name="nombre" ></p>
     </div>
     <button>Calcular</button>
         <p>El total es: $ <span>0</span>MNX</p>
 </div>
-    
+<input type="button" value="Comprar" onclick="location.reload()"/>
     <!-- Pie de pagina -->
     <hr>
     <div id="Social-re-extra">

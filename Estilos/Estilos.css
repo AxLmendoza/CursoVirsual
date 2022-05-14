@@ -56,17 +56,18 @@ div.IDA h3 {
         padding: 0px 5;
     }
 }
-    #Encebe {
-        text-align: center;
-    }
 
-    #Social-re {
-        display: none;
-    }
+#Encebe {
+    text-align: center;
+}
 
-    #Social-re-extra {
-        display: block;
-    }
+#Social-re {
+    display: none;
+}
+
+#Social-re-extra {
+    display: block;
+}
 
 #Redes-sociales-extra a {
     text-decoration: none;
@@ -108,12 +109,14 @@ div.IDA:hover {
 
 /*FDP */
 @media (max-width: 767px) {}
+
 @media (max-width: 768px) and (max-width: 990px) {}
+
 @media (max-width: 991px) {}
 
 
 #Colorh1 {
-    color: white;      
+    color: white;
 }
 
 a {
