@@ -14,8 +14,6 @@ el_calcular.addEventListener("click", calcular);
 el_edad.addEventListener("change", calcular);
 el_cantidad.addEventListener("cange", calcular);
   
-
-
 function calcular() {
     // XD
 let precio = 1500;

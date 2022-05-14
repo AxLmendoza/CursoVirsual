@@ -83,8 +83,6 @@ div.IDA h3 {
     padding: 0.5em 1.5px;
 }
 
-
-
 div#Social-re a {
     margin-left: 20px;
 }
@@ -108,7 +106,16 @@ div.IDA:hover {
     transition: 0.5;
 }
 
-/* Es la fase de prueba  */
+/*FDP */
 @media (max-width: 767px) {}
 @media (max-width: 768px) and (max-width: 990px) {}
 @media (max-width: 991px) {}
+
+
+#Colorh1 {
+    color: white;      
+}
+
+a {
+    text-decoration: none;
+}
