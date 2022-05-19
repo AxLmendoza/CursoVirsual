@@ -122,3 +122,12 @@ div.IDA:hover {
 a {
     text-decoration: none;
 }
+
+#Boton {
+    padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  background-color:#667761;
+
+}
