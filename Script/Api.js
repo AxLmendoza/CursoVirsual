@@ -1,15 +1,21 @@
 
-const uri = "https://raw.githubusercontent.com/AxLmendoza/ApiAxl/master/";
-const URL = "https://raw.githubusercontent.com/AxLmendoza/ApiAxl/master/base_datos.json";
-const contenedor = document.getElementById("Contenido_prin");
+const API_URL = "https://raw.githubusercontent.com/AxLmendoza/ApiAxl/master/base_datos.json";
+const xhr = new XMLHttpRequest();
 
-fetch(URL).then(function(respuesta) {
-    return respuesta.json();
-}).then(function(datos) {
-    for(let i = 0; i < datos.lenght; i++) {
-    contenedor.innerHTML += "<div class='IDA'><img src='" + uri + datos[i]["imagen"] + "'> <h3> "+ datos[i]["nombre"]+ "</h3></div";
-    // contenedor.innerHTML += "<img src='" + uri + datos[i]["imagen"] + "'>";
+function onRequestHandler(){
+    if (this.readyState == 4 && this.status == 200){
+        const dat = JSON.parse(this.response);
+        const HTMLResponse = document.querySelector(".IDA");
+
+        const tpl = data.map(nombre == nombre);
+        const tp = data.map(imagen == imagen);
+
+        HTMLResponse.innerHTML = '<ul>${tpl}</ul>'
+        HTMLResponse.innerHTML = '<ul>${tp}</ul>'
     }
-}).catch(function(error) {
-     console.log(error);
-});
+}
+
+xhr.addEventListener("load", onRequestHandler);
+xhr.open ("GET", '${API_URL}/users');
+xhr.send();
+
